@@ -1,0 +1,18 @@
+server:
+  port: 9024
+
+spring: 
+  application:
+    name: sys-service
+  profiles:
+    active: dev
+
+
+
+security:
+  basic:
+    enabled: false
+    path: /swagger-ui.html
+  user:
+    name: admin
+    password: admin
